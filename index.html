@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Interactive Image Sequence</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="image-container">
+  <div class="text-container" id="text-container">
+    <span id="welcome-text">Welcome</span>
+    <span id="ux-text" style="display:none;">UI/UX Designer</span>
+    <span id="software-text" style="display:none;">Software Developer</span>
+    <span id="web-text" style="display:none;">Web Developer</span>
+  </div>
+  <img src="images/GHG.png" alt="Image 1" class="active">
+  <img src="images/Subhashini G(2).png" alt="Image 2">
+  <img src="images/Subhashini G(4).png" alt="Image 3">
+  <img src="images/Subhashini G(1).png" alt="Image 4">
+  <img src="images/Subhashini G(8).png" alt="Image 5">
+  <img src="images/samkaran.png" alt="Image 6" class="last-image">
+
+  <!-- Scroll down arrow -->
+  <svg class="scroll-down-arrow" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <path d="M6 12L12 18L18 12" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  </svg>
+  
+  <!-- Invisible links -->
+  <a href="mailto:subhashinig394@gmail.com?subject=Hello%20Subhashini" class="invisible-link mail-link">&#x1F4E7;<span>Email</span></a>
+  <a href="https://github.com/subhashini" class="invisible-link github-link" target="_blank">&#128012;<span>GitHub</span></a>
+  <a href="https://www.linkedin.com/in/subhashinig6" class="invisible-link linkedin-link" target="_blank">&#128011;<span>LinkedIn</span></a>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
