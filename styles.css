@@ -27,7 +27,6 @@ body {
   
   .image-container img.active {
     opacity: 1; /* Show the active image */
-    animation: fadeIn 1s ease; /* Animation for image appearing */
   }
   
   /* Text container and animation styles */
